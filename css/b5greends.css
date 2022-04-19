@@ -1,0 +1,38 @@
+body, p, h1, h2, h3, h4, h5  {
+  font-family: 'Open Sans', sans-serif;  
+}
+
+/* margin logo*/ 
+.block-system-branding-block {
+  margin-left: 100px !important;
+}
+
+/*remove padding carrousel*/
+.region-content #block-carroucel{
+  margin: 0 -0.5rem;
+}
+
+.region.region-nav-main {
+  margin-right: 5%;:
+}
+
+.nav-link  {
+  padding-right: 1.5rem !important;
+  text-transform: uppercase !important;
+  color: black !important;
+  font-size: 0.9vw;
+  font-weight: 700;
+}
+
+/*carousel*/
+.carousel-item h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vw;
+  font-weight: 600;
+}
+
+.carousel-item p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 500;
+}
