@@ -2,9 +2,42 @@ body, p, h1, h2, h3, h4, h5  {
   font-family: 'Open Sans', sans-serif;  
 }
 
+@media (max-width: 1366px){
+  .nav-link {
+    font-size: 12px !important;
+  }
+}
+
+/* menu languages*/
+.en, .pt-pt {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+}
+
 /* margin logo*/ 
 .block-system-branding-block {
   margin-left: 100px !important;
+}
+@media (max-width: 991px){
+  .block-system-branding-block {
+    margin-left: 30px !important;
+  }
+}
+
+/* place language switcher*/
+.region-nav-additional {
+  padding-right: 30px;
+}
+
+.block-language-blocklanguage-interface .links {
+  list-style: none;
+}
+
+/*fix spacing from fixed-top navbar*/
+.main-topo {
+  padding-top: 7rem !important;
 }
 
 /*remove padding carrousel*/
@@ -14,6 +47,15 @@ body, p, h1, h2, h3, h4, h5  {
 
 .region.region-nav-main {
   margin-right: 5%;:
+}
+
+/*article content*/
+.block-page-title-block {
+  padding-left: 5%;
+}
+
+.block-system-main-block {
+  padding-left: 5%;
 }
 
 .nav-link  {
@@ -35,4 +77,26 @@ body, p, h1, h2, h3, h4, h5  {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5vw;
   font-weight: 500;
+}
+
+.region-footer {
+  padding: 0 0rem;
+}
+
+.footer-block-1 {
+  background-color: #333;
+  margin: 0 0rem;
+}
+
+.footer-block-1 a, .footer-final a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-final {
+  margin: 0 0rem;
+}
+
+.green-ds-name {
+  font-weight: 700;
 }
