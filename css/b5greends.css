@@ -1,8 +1,9 @@
 body, p, h1, h2, h3, h4, h5  {
   font-family: 'Open Sans', sans-serif;  
+  font-weight: 200;
 }
 
-@media (max-width: 1366px){
+@media (max-width: 900px){
   .nav-link {
     font-size: 12px !important;
   }
